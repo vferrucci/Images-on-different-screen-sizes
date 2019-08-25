@@ -1,0 +1,47 @@
+* {
+	box-sizing: border-box;
+}
+h1, h2, h3, h4, h5, h6 {
+	text-align: center;
+}
+
+section {
+	border: inset #333 thin;
+	padding: 1em;
+}
+
+main {
+	display: flex;
+	flex-direction: column;
+}
+
+.animals main{
+	background-color: lightskyblue;
+}
+.animals h2{
+	color: red;
+}
+
+.minerals main{
+	background-color: pink;
+}
+.minerals h2{
+	color: green;
+}
+
+.vegetables main {
+	background-color: lightyellow;
+}
+.vegetables h2{
+	color: blue;
+}
+
+@media (min-width: 750px){
+	main {
+		flex-direction: row;
+	}
+}
+img{
+	width: 100%;
+	height: auto;
+}
