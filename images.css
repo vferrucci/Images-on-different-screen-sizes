@@ -22,20 +22,6 @@ main {
 	color: red;
 }
 
-.minerals main{
-	background-color: pink;
-}
-.minerals h2{
-	color: green;
-}
-
-.vegetables main {
-	background-color: lightyellow;
-}
-.vegetables h2{
-	color: blue;
-}
-
 @media (min-width: 750px){
 	main {
 		flex-direction: row;
